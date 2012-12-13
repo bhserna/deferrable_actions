@@ -65,7 +65,7 @@ class SessionsController < ApplicationController
     end
   end
 
-  def failure
+  def on_auth_failure
     if defered_action?
       on_failure_execute_defered_action!
     else
