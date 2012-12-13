@@ -88,6 +88,11 @@ class SessionsController < ApplicationController
 end
 ```
 
+## People
+
+* Benito Serna @bhserna
+* Jorge Gajón @gajon
+
 ## Contributing
 
 1. Fork it
