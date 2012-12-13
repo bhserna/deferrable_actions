@@ -19,7 +19,7 @@ Or install it yourself as:
 
 ## Usage
 
-Include the module 'DefferrableActions' in the controller that you want
+Include the module 'DeferrableActions' in the controller that you want
 to defer actions, if you want, you can include the module in the
 ApplicationController and all your controllers are going to have the
 ability to defer actions.
@@ -36,7 +36,7 @@ end
 
 The principal way that we use deferrable actions, is to defer actions
 that need to authenticate the user in the middle of a POST request,
-because we can't can redirect to a POST.
+because we can't redirect to a POST.
 
 We use it like this:
 
